@@ -1,3 +1,5 @@
+import { add , sub , mul , div} from '../calculator/calculator'
+
 // Print initial messages to the console
 console.log("Welcome to Vishwak's first Node.js program!");
 console.log("Node.js makes file operations easy and fun!");
@@ -7,6 +9,11 @@ const fs = require('fs');
 
 // Define a file path
 const filePath = 'message.txt';
+
+console.log("Sum of 20 and 30 is:"+ add(20,30));
+console.log("sub of 20 and 30 is:"+ sub(20,30));
+console.log("mul of 20 and 30 is:"+ mul(20,30));
+console.log("div of 20 and 30 is:"+ div(20,30));
 
 
 // Write to a file
